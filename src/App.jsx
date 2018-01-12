@@ -2,6 +2,7 @@ import React from 'react'
 import { Grid, Row } from 'react-flexbox-grid'
 
 import Main from './components/layouts/Main'
+import Container from './components/Container'
 import './styles/App.css'
 
 export default function App() {
@@ -9,7 +10,7 @@ export default function App() {
     <Main>
       <Grid fluid>
         <Row>
-          <h1>Hello Dashboard</h1>
+          <Container />
         </Row>
       </Grid>
     </Main>

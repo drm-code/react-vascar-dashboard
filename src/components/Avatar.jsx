@@ -4,7 +4,7 @@ import RaisedButton from 'material-ui/RaisedButton'
 import Avatar from 'material-ui/Avatar'
 
 import '../styles/Avatar.css'
-import { text, accent } from '../styles/Colors'
+import { white, accent } from '../styles/Colors'
 
 function AvatarComponent() {
   return (
@@ -28,7 +28,7 @@ function AvatarComponent() {
           <RaisedButton
             label="upload"
             backgroundColor={accent}
-            labelColor={text}
+            labelColor={white}
             buttonStyle={{ borderRadius: 25, width: 163 }}
             style={{ borderRadius: 25 }}
             overlayStyle={{ borderRadius: 25 }}

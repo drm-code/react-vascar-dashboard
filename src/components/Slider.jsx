@@ -4,6 +4,7 @@ import FontIcon from 'material-ui/FontIcon'
 import Slider from 'material-ui/Slider'
 
 import '../styles/Slider.css'
+import { accent } from '../styles/Colors'
 
 function SliderComponent(props) {
   const show = !props.mobile ? (
@@ -20,6 +21,7 @@ function SliderComponent(props) {
           <FontIcon
             className="material-icons"
             style={{ fontSize: 30 }}
+            color={accent}
           >
             view_comfy
           </FontIcon>
@@ -39,6 +41,7 @@ function SliderComponent(props) {
           <FontIcon
             className="material-icons"
             style={{ fontSize: 30 }}
+            color={accent}
           >
             view_module
           </FontIcon>

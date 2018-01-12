@@ -12,7 +12,7 @@ function Categories(props) {
           <MenuItem
             onClick={props.handleShow}
             key={Math.random()}
-            className="menu-section__item"
+            className={`menu-section__item ${o === 'Photos' ? 'menu-section__item_active' : null}`}
           >
             {o}
           </MenuItem>

@@ -1,0 +1,64 @@
+@import "./Colors.scss";
+
+body {
+  margin: 0px !important;
+  color: $text !important;
+}
+
+.bg_dark-primary {
+  background-color: $darkPrimary !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.padding-x_20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.menu-section {
+  margin-bottom: 40px;
+  border-top: 2px solid $darkPrimary3 !important;
+}
+
+.menu-section_no-border {
+  border-top: none !important;
+}
+
+.menu-section_scale {
+  padding: 12px 0px;
+  background-color: $darkPrimary2;
+  margin-bottom: 0px;
+}
+
+.menu-section__title {
+  color: $text !important;
+  padding-left: 10px;
+}
+
+.menu-section__item {
+  line-height: 33px !important;
+  min-height: 33px !important;
+  margin-bottom: 8px !important;
+  color: $text !important;
+  border-left-width: 4px !important;
+  border-left-style: solid !important;
+  border-left-color: transparent !important;
+  font-size: 14px !important;
+  &:hover {
+    background-color: $darkPrimary2 !important;
+  }
+}
+
+.menu-section__item_active {
+  border-left-color: $accent !important;
+  background-color: $darkPrimary2 !important;
+}
+
+@media screen and (min-width: 769px) {
+  .container-fluid {
+    padding-left: 250px;
+  }
+}

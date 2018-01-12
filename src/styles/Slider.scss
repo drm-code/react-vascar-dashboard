@@ -1,0 +1,18 @@
+@import "./Colors.scss";
+
+.slider {
+  > div > div {
+    > div:first-child {
+      background-color: $darkText !important;
+      & + div {
+        background-color: $darkPrimary3 !important;
+        & + div {
+          background-color: $accent !important;
+          > div > div > div {
+            background-color: $accent !important;
+          }
+        }
+      }
+    }
+  }
+}

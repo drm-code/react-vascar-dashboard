@@ -1,0 +1,18 @@
+@import "./Colors.scss";
+
+.avatar {
+  background-color: $primary !important;
+  height: 253px !important;
+  flex-direction: column !important;
+  color: $text !important;
+}
+
+.avatar__user-name {
+  margin-bottom: 5px;
+}
+
+.avatar__user-name_files {
+  font-size: 14px;
+  color: $lightText;
+  margin-top: 0px;
+}

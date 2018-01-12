@@ -45,7 +45,7 @@ export default function Container() {
                   <Col xs={12}>
                     <Col
                       className="card__body"
-                      style={{ backgroundImage: `url(http://lorempixel.com/${Math.floor(Math.random() * ((500 - 200) + 200))}/${Math.floor(Math.random() * ((400 - 350) + 350))})` }}
+                      style={{ backgroundImage: `url(https://fillmurray.com/${Math.floor(Math.random() * ((500 - 200) + 200))}/${Math.floor(Math.random() * ((400 - 350) + 350))})` }}
                     />
                   </Col>
                   <Col xs={12}>

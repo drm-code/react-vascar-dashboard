@@ -16,7 +16,7 @@ function AvatarComponent() {
       >
         <Col>
           <Avatar
-            src="http://fillmurray.com/100/100"
+            src="https://fillmurray.com/100/100"
             size={83}
           />
         </Col>

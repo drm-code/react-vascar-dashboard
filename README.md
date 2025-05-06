@@ -1,1 +1,1 @@
-[Demo](https://vascar-dashboard.herokuapp.com/).
+[Dashboard Demo](http://vascar.yonathanp4.sg-host.com/)
